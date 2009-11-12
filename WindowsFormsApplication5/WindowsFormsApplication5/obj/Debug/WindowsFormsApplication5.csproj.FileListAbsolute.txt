@@ -13,3 +13,5 @@ C:\Documents and Settings\Administrador\Escritorio\WindowsFormsApplication5\Wind
 C:\Documents and Settings\Administrador\Escritorio\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.pdb
 C:\Documents and Settings\Administrador\Mis documentos\progravanzada\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.exe
 C:\Documents and Settings\Administrador\Mis documentos\progravanzada\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.pdb
+C:\Users\venegon\Documents\equipo\pa\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.exe
+C:\Users\venegon\Documents\equipo\pa\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.pdb
