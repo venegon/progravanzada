@@ -41,6 +41,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.gridControl1 = new DevExpress.XtraGrid.GridControl();
             this.gridView2 = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.label3 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl1)).BeginInit();
             this.xtraTabControl1.SuspendLayout();
             this.tbNuevo.SuspendLayout();
@@ -69,6 +71,8 @@
             // 
             // tbNuevo
             // 
+            this.tbNuevo.Controls.Add(this.comboBox1);
+            this.tbNuevo.Controls.Add(this.label3);
             this.tbNuevo.Controls.Add(this.btnGuardar);
             this.tbNuevo.Image = global::ABC.Properties.Resources.document_new;
             this.tbNuevo.Name = "tbNuevo";
@@ -174,6 +178,23 @@
             this.gridView2.GridControl = this.gridControl1;
             this.gridView2.Name = "gridView2";
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(157, 106);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(68, 13);
+            this.label3.TabIndex = 1;
+            this.label3.Text = "PROBANDO";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(148, 202);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(121, 21);
+            this.comboBox1.TabIndex = 2;
+            // 
             // frmABC
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -187,6 +208,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl1)).EndInit();
             this.xtraTabControl1.ResumeLayout(false);
             this.tbNuevo.ResumeLayout(false);
+            this.tbNuevo.PerformLayout();
             this.tbBuscar.ResumeLayout(false);
             this.tbBuscar.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridBuscar)).EndInit();
@@ -214,6 +236,8 @@
         protected DevExpress.XtraTab.XtraTabPage tbNuevo;
         protected DevExpress.XtraTab.XtraTabPage tbModificar;
         protected System.Windows.Forms.Button btnGuardar;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.ComboBox comboBox1;
     }
 }
 
